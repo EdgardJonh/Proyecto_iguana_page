@@ -1,0 +1,136 @@
+/* *{
+
+} */
+header{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background-color: black;
+   color: white;
+}
+header h1{
+    font-size:xx-large;
+    font-family:fantasy;
+    font-weight:100;
+}
+ /* contendio de la imagen */
+ .section1{
+    height: 766px;
+ }
+.section1 img{
+    width: 100%;
+    height:auto;
+}
+/* inicio seccion 2 texto y imagen */
+.seccion2{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 348px;
+}
+.seccion2_textoIguana1{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.seccion2_textoIguana1 p{
+    font: normal normal 300 16px/19px Raleway;
+    text-align: left;
+    color: #afaeae;
+    opacity: 1;
+    letter-spacing: 0px;
+    font-size:small;
+    font-family:fantasy;
+    font-weight:100;
+}
+.seccion2_imagenIguana1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+
+}
+.seccion2_imagenIguana1 img{
+    
+    width: 50%;
+
+}
+
+/* inicio seccion 3 caracteristicas y iconos */
+.seccion3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #1E1A13 ;
+    height: 348px;
+}
+.seccion3_Caracteristicas{
+    text-align: center;
+    
+}
+.seccion3_Caracteristicas h1{
+    font-size: xx-large;
+    font-family: fantasy;
+    font-weight: 100;
+}
+/* inicio  iconos texto */
+
+.seccion3_iconos_texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.iconos_textos{
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+.iconos_textos p{
+    
+    font-size:unset;
+    font-family:fantasy;
+    font-weight:100;
+}
+   /* inicio seccion 4  */
+.seccion4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    padding: 40px;
+    
+}
+.seccion4 img{
+    width: 25%;
+    margin: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size:unset;
+    font-family:fantasy;
+    font-weight:100;
+    background-color: #1E1A13;
+    color: white;
+    height: 102px;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: #d6d6d6;
+}
